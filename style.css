@@ -996,6 +996,7 @@ footer { background: #080809; border-top: 1px solid var(--border-bright); paddin
 @media (max-width: 768px) {
   .sticky-call-bar { display: flex; }
   body { padding-bottom: 76px; }
+  nav > div { display: none; }
 }
 
 @media (max-width: 700px) {
