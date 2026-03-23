@@ -34,7 +34,11 @@
     html { scroll-behavior: smooth; }
 
     body {
-      background: var(--black);
+      background-color: var(--black);
+      background-image: url('assets/assets-background.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
       color: var(--light);
       font-family: 'Barlow', sans-serif;
       font-weight: 300;
@@ -124,7 +128,7 @@
       padding: 16rem 5rem 6rem 5rem;
       position: relative;
       z-index: 2;
-      background: linear-gradient(135deg, #0d0e11 0%, #14161c 100%);
+      background: linear-gradient(135deg, rgba(13,14,17,0.93) 0%, rgba(20,22,28,0.93) 100%);
     }
 
     .hero-eyebrow {
@@ -215,7 +219,7 @@
     .hero-right {
       position: relative;
       overflow: hidden;
-      background: linear-gradient(160deg, #16181f 0%, #0e0f13 100%);
+      background: linear-gradient(160deg, rgba(22,24,31,0.93) 0%, rgba(14,15,19,0.93) 100%);
     }
 
     .hero-right::before {
@@ -345,7 +349,7 @@
 
     /* ABOUT */
     #about {
-      background: linear-gradient(160deg, #16181f 0%, #111214 100%);
+      background: linear-gradient(160deg, rgba(22,24,31,0.93) 0%, rgba(17,18,20,0.93) 100%);
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 6rem;
@@ -429,7 +433,7 @@
     }
 
     /* SERVICES */
-    #services { background: #0d0e12; }
+    #services { background: rgba(13,14,18,0.93); }
 
     .services-header { max-width: 600px; margin-bottom: 4rem; }
 
@@ -478,7 +482,7 @@
 
     /* WHY US */
     #why {
-      background: linear-gradient(160deg, #181a22 0%, #13141a 100%);
+      background: linear-gradient(160deg, rgba(24,26,34,0.93) 0%, rgba(19,20,26,0.93) 100%);
       border-top: 1px solid var(--border-bright);
       border-bottom: 1px solid var(--border-bright);
     }
@@ -524,7 +528,7 @@
 
     /* REVIEWS */
     #reviews {
-      background: #0d0e12;
+      background: rgba(13,14,18,0.93);
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -591,7 +595,7 @@
 
     /* GALLERY */
     #gallery {
-      background: linear-gradient(160deg, #14151c 0%, #0d0e12 100%);
+      background: linear-gradient(160deg, rgba(20,21,28,0.93) 0%, rgba(13,14,18,0.93) 100%);
       padding: 5rem;
       border-top: 1px solid var(--border-bright);
     }
@@ -613,7 +617,7 @@
 
     /* CONTACT */
     #contact {
-      background: linear-gradient(160deg, #16181f 0%, #111214 100%);
+      background: linear-gradient(160deg, rgba(22,24,31,0.93) 0%, rgba(17,18,20,0.93) 100%);
       border-top: 1px solid var(--border-bright);
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1150,7 +1154,7 @@
 
   <!-- QUOTE FORM -->
   <div class="metallic-strip"></div>
-  <section id="quote" style="background: linear-gradient(160deg, #16181f 0%, #111214 100%); border-top: 1px solid var(--border-bright);">
+  <section id="quote" style="background: linear-gradient(160deg, rgba(22,24,31,0.93) 0%, rgba(17,18,20,0.93) 100%); border-top: 1px solid var(--border-bright);">
     <div class="fade-in" style="max-width:900px;margin:0 auto;">
       <div class="section-eyebrow" style="justify-content:center;">Request Service</div>
       <h2 class="section-title" style="text-align:center;">Request<br>Service</h2>
